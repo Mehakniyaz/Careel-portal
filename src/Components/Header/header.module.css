@@ -1,0 +1,66 @@
+.menuItemsContainer{
+    /* border:1px solid red; */
+   
+}
+
+body{
+    margin:0px;
+    color:black
+}
+.companyLogo img{
+    width:80px;
+    height:80px
+}
+.companyLogo{
+    margin-left:20px
+}
+
+.brandName{
+
+    border:1px solid red  
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    box-shadow:5px 5px 5px  rgba(0, 0, 0, 0.075);
+
+
+}
+.menuItemsContainer ul{
+
+    display:flex;
+justify-content:space-around;
+align-items: center;
+
+
+}
+.menuItemsContainer ul li a{
+   
+
+text-decoration: none;
+color:black
+}
+.menuItemsContainer ul li {
+    list-style: none;
+    /* border:1px solid red; */
+    margin:18px;
+    
+}
+
+.menuItemsContainer ul li :hover{
+    color:orange
+}
+
+.menuItemsContainer ul li button{
+
+    border-radius: 20px;
+    border-color: orange;
+    background-color: white;
+    padding:10px;
+    color:black;
+   
+}
+
+
+ 

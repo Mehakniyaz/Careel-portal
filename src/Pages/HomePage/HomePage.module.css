@@ -1,0 +1,44 @@
+img{
+    width:600px
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.section2{
+    
+    margin-top: 20px;
+    /* border: 1px solid red; */
+}
+
+.container section  span{
+    color:orange;
+    font-size: 32px;
+    font-weight: bold;
+ 
+}
+.container section h1{
+
+    font-size: 38px;
+    font-weight: bold;
+}
+.container section button{
+
+
+    border-radius: 50px;
+    background-color: orange;
+    padding: 8px;;
+    color:white;
+    border:none
+}
+.btnContainer{
+   margin-top: 100px;
+}
+.desc{
+    color:gray;
+    letter-spacing: 2;
+}
